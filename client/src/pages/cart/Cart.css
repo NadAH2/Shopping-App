@@ -1,0 +1,189 @@
+#blog-container .post h2 {
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+#blog-container .post:hover h2 {
+  color: red;
+}
+table {
+  border-spacing: 40px;
+  width: 100px;
+}
+#cart-container {
+  overflow-x: auto;
+  padding-top: 30px;
+}
+.BagWish {
+  display: inline;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: red;
+}
+#cart-container table {
+  border-collapse: collapse;
+  width: 90%;
+  table-layout: fixed;
+  white-space: nowrap;
+}
+#cart-container table thead {
+  font-weight: 700;
+}
+#cart-container table thead td {
+  background: red;
+  color: #fff;
+  border: none;
+  padding: 6px 0;
+}
+#cart-container table td {
+  border: 1px solid #b6b3b3;
+  text-align: center;
+}
+#cart-container table td:nth-child(1) {
+  width: 100px;
+}
+#cart-container table td:nth-child(2),
+#cart-container table td:nth-child(3) {
+  width: 200px;
+}
+#cart-container table td:nth-child(4),
+#cart-container table td:nth-child(5) #cart-container table td:nth-child(6) {
+  width: 150px;
+}
+#cart-container table tbody img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+#cart-container table tbody i {
+  color: red;
+}
+.border {
+  border: 1 solid #b6b3b3;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+#cart-bottom .coupon h5,
+#cart-bottom .total h5 {
+  background: red;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  font-weight: 700;
+}
+#cart-bottom .coupon p,
+#cart-bottom .coupon input {
+  padding: 0 12px;
+}
+#cart-bottom .coupon input {
+  height: 44px;
+}
+#cart-bottom .coupon input,
+#cart-bottom .coupon button {
+  margin: 0 0 20px 12px;
+}
+#cart-bottom .total div > div {
+  padding: 0 12px;
+}
+#cart-bottom .total h6 {
+  color: #2a2a2a;
+}
+.secondHR {
+  background: #b8b7b3;
+  width: 100%;
+  height: 1px;
+}
+.btnCH {
+  margin: 0 12px 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  background-color: red;
+  outline: none;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-weight: 600;
+}
+
+.btnCH:hover {
+  background-color: #b8b7b3;
+}
+
+.btnCH:active {
+  background-color: #b8b7b3;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#cart-bottom {
+  padding-top: "30px";
+}
+.montant {
+  display: flex;
+  justify-content: "space-between";
+}
+form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.value-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 11px 0;
+  background: #eee;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.value-button:hover {
+  cursor: pointer;
+}
+
+form #decrease {
+  margin-right: -4px;
+  border-radius: 8px 0 0 8px;
+}
+
+form #increase {
+  margin-left: -4px;
+  border-radius: 0 8px 8px 0;
+}
+
+form #input-wrap {
+  margin: 0px;
+  padding: 0px;
+}
+
+input#number {
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.check {
+  bottom: 0;
+  justify-content: flex-end;
+  padding-top: 500;
+}
